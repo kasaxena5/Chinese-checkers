@@ -257,7 +257,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Restart
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -522,8 +522,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   checkersPrefab: {fileID: 488524120, guid: b03d4a098e181d541b6b81883d96ffdb, type: 3}
   canvas: {fileID: 1696766690}
-  boardSizeX: 5
-  boardSizeY: 5
+  boardSizeX: 20
+  boardSizeY: 20
 --- !u!4 &788078567
 Transform:
   m_ObjectHideFlags: 0
@@ -625,7 +625,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 788078566}
         m_TargetAssemblyTypeName: ChineseCheckersManager, Assembly-CSharp
-        m_MethodName: DestroyCheckerBoard
+        m_MethodName: ResetCheckerBoard
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -813,11 +813,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041181222815331153, guid: b03d4a098e181d541b6b81883d96ffdb, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 40
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 9041181222815331153, guid: b03d4a098e181d541b6b81883d96ffdb, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 40
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 9041181222815331153, guid: b03d4a098e181d541b6b81883d96ffdb, type: 3}
       propertyPath: m_LocalPosition.x
